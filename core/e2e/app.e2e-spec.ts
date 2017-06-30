@@ -1,10 +1,10 @@
-import { BitspadCorePage } from './app.po';
+import { CorePage } from './app.po';
 
-describe('bitspad-core App', () => {
-  let page: BitspadCorePage;
+describe('core App', () => {
+  let page: CorePage;
 
   beforeEach(() => {
-    page = new BitspadCorePage();
+    page = new CorePage();
   });
 
   it('should display welcome message', () => {

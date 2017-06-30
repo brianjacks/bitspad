@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class BitspadCorePage {
+export class CorePage {
   navigateTo() {
     return browser.get('/');
   }
